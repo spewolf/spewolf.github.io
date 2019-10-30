@@ -1,1 +1,2 @@
-$('#head').load('html/header.html')
+console.log('Loading page')
+$('#head').load('../html/header.html')
