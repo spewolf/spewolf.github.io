@@ -1,3 +1,12 @@
 html {
-    background: rgb(255, 208, 0)
+    bottom: 0;
+    height: 100%;
+}
+body {
+    background: rgb(255, 255, 76);
+    height: 100%;
+}
+.stretch {
+    bottom: 0;
+    height: 100%;
 }
