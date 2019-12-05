@@ -56,3 +56,8 @@ body {
       visibility: visible;
     }
   }
+
+  .nav-custom {
+      font-size: 1.5em;
+      padding: 0 0 .25rem 1rem;
+  }
