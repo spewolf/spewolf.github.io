@@ -158,6 +158,12 @@ footer .right {
         top: .5rem;
         right: 2rem;
     }
+    footer .right {
+        float: none;
+    }
+    footer .right::before {
+        content: " ~ ";
+    }
 }
 
 /* Extra small devices (phones, less than 768px) */
