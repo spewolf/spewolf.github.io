@@ -111,7 +111,7 @@ h3 {
         width: 5rem;
         height: 5rem;
     }
-    
+/* About Styling */
 .info-column div {
     padding: 1.5rem;
 }
@@ -121,10 +121,26 @@ h3 {
 .project-column div {
     padding: 1rem;
 }
+/* Project Styling */
+.project-column div a {
+    color: black;
+    background: white;
+    text-decoration: none;
+    border-radius: 1000rem;
+    padding: .75rem;
+    float: right;
+}
 
 @media screen and (max-width: 992px) {
     .collapse-d-row {
         display: block;
+    }
+    .info-column div h4 {
+        margin-bottom: 1.2rem;
+    }
+    .info-column div img {
+        top: .5rem;
+        right: 2rem;
     }
 }
 
