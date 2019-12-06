@@ -130,6 +130,22 @@ h3 {
     padding: .75rem;
     float: right;
 }
+/* Footer */
+footer {
+    background: rgb(102, 102, 102);
+    color: white;
+    padding: 1rem;
+}
+footer a {
+    color: rgb(176, 225, 255);
+}
+footer a:hover {
+    color: white;
+    text-decoration: none;
+}
+footer .right {
+    float: right;
+}
 
 @media screen and (max-width: 992px) {
     .collapse-d-row {
