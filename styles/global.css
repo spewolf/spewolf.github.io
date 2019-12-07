@@ -7,7 +7,15 @@ html, body {
     font-size: 1.5em;
     padding: 0 0 .25rem 1rem;
 }
-
+/* Announcments */
+#announcement {
+    position: absolute;
+    right: 1rem;
+    top: 4rem;
+    width: 20%;
+    background: hsl(60, 100%, 63%);
+    padding: 5px;
+}
 /* Title bar with name */
 .space {
     background-image: url("/resources/PIA23127_hires_sm.jpg");
@@ -163,6 +171,14 @@ footer .right {
 }
 
 @media screen and (max-width: 992px) {
+    #announcement {
+        position: relative;
+        width: 70%;
+        right: 0;
+        top: 1rem;
+        margin-left: 1rem;
+    }
+
     .collapse-d-row {
         display: block;
     }
