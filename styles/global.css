@@ -182,10 +182,10 @@ footer .right {
     .collapse-d-row {
         display: block;
     }
-    .info-column div h4 {
+    .info-column div.info-card h4 {
         margin-bottom: 1.2rem;
     }
-    .info-column div img {
+    .info-column div.info-card img {
         top: .5rem;
         right: 2rem;
     }
@@ -194,6 +194,9 @@ footer .right {
     }
     footer .right::before {
         content: " ~ ";
+    }
+    .card-column h3 {
+        margin-top: 1rem;
     }
 }
 
