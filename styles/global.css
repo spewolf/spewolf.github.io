@@ -56,10 +56,6 @@ h2 {
     font-weight: bold;
     color: rgb(0, 0, 0);
 }
-h3 {
-    padding: 1rem 0;
-    font-size: 2em;
-}
 
 /* Card grid setup */
 .collapse-d-row {
@@ -80,7 +76,7 @@ h3 {
 }
 
 /* Card Stylings */
-.card-column div  {
+.card-column div.info-card  {
     position: relative;
     box-shadow: 1px;
     background: linear-gradient(339deg, rgb(5, 28, 46) 0%, rgb(92, 28, 28) 100%);
@@ -95,6 +91,7 @@ h3 {
     .card-column ul {
         list-style: none;
         padding: 0;
+        font-weight: bolder;
     }
     .card-column ul li::before {
         content: "> "
@@ -104,7 +101,7 @@ h3 {
         font-weight: bold;
         font-size: 3em;
     }
-    .card-column div img {
+    .card-column div.info-card img {
         position: absolute;
         right: 1.5rem;
         top: 1.5rem;
@@ -115,7 +112,7 @@ h3 {
 .info-column div {
     padding: 1.5rem;
 }
-    .info-column div p {
+    .info-column div.info-card p {
         margin: 0 2rem;
     }
 .project-column div {
@@ -129,6 +126,24 @@ h3 {
     border-radius: 1000rem;
     padding: .75rem;
     float: right;
+}
+.project-column div a:hover {
+    background: #E0E0E0;
+}
+/* Note stylizing */
+.sidenote img {
+    display: block;
+    position: relative;
+    height: 12rem;
+    margin-top: 1rem;
+    margin-right: auto;
+    margin-left: auto;
+    border-radius: 8px;
+}
+.sidenote {
+    font-weight: bolder;
+    border-radius: 8px;
+    border: 1px dashed;
 }
 /* Footer */
 footer {
