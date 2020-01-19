@@ -18,7 +18,7 @@ html, body {
 }
 /* Title bar with name */
 .space {
-    background-image: url("/resources/PIA23127_hires_sm.jpg");
+    background-image: url("/folio/PIA23127_hires_sm.jpg");
     background-attachment: fixed;
     display: inline-block;
     background-color: black;

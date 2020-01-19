@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Spencer&#39;s Blog</title>
+    <description>This site not only has my blog but it also has a portfolio and various other nooks and crannies to explore. I hope you enjoy your visit.
+</description>
+    <link>http://spewolf.github.io/</link>
+    <atom:link href="http://spewolf.github.io/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Sun, 19 Jan 2020 12:04:49 -0500</pubDate>
+    <lastBuildDate>Sun, 19 Jan 2020 12:04:49 -0500</lastBuildDate>
+    <generator>Jekyll v3.1.6</generator>
+    
+      <item>
+        <title>Welcome to my new blog!</title>
+        <description>&lt;h1 id=&quot;there-have-been-many-blogs&quot;&gt;There have been many blogs&lt;/h1&gt;
+
+&lt;h2 id=&quot;now-there-is-one-more&quot;&gt;Now there is one more&lt;/h2&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;Welcome to my blog, things are just starting up so please disregard the lack of content.&lt;/p&gt;
+</description>
+        <pubDate>Sun, 19 Jan 2020 00:00:00 -0500</pubDate>
+        <link>http://spewolf.github.io/blog/welcome/2020/01/19/Welcome.html</link>
+        <guid isPermaLink="true">http://spewolf.github.io/blog/welcome/2020/01/19/Welcome.html</guid>
+        
+        
+        <category>blog</category>
+        
+        <category>welcome</category>
+        
+      </item>
+    
+  </channel>
+</rss>

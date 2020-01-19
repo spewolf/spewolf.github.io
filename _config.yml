@@ -1,0 +1,19 @@
+# Welcome to Jekyll!
+#
+# This config file is meant for settings that affect your whole blog, values
+# which you are expected to set up once and rarely need to edit after that.
+# For technical reasons, this file is *NOT* reloaded automatically when you use
+# 'jekyll serve'. If you change this file, please restart the server process.
+
+# Site settings
+title: Spencer's Blog
+email: spewolf@bgsu.edu
+description: > # this means to ignore newlines until "baseurl:"
+    This site not only has my blog but it also has a portfolio and various
+    other nooks and crannies to explore. I hope you enjoy your visit.
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "http://spewolf.github.io" # the base hostname & protocol for your site
+github_username:  spewolf
+
+# Build settings
+markdown: kramdown
